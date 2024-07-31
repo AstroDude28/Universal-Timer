@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Timer",
+  "version": "1.0",
+  "description": "A Chrome extension to display a timer  on all websites.",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["logic.js"]
+    }
+  ]
+}
