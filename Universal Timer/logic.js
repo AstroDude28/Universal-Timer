@@ -90,7 +90,7 @@
       minutes++;
       // Change background color every minute
       timerDiv.style.backgroundColor = colors[minutes % colors.length];
-      if (minutes >= 12) {
+      if (minutes >= 10) {
         timerDiv.style.backgroundColor = "#FF0000";
       }
       if (minutes >= 60) {
